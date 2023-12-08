@@ -5,6 +5,19 @@ import '../base.css'
 import Header from '../components/Header.astro'
 import type { Props as HeaderProps } from '../components/Header.astro'
 import { ViewTransitions } from 'astro:transitions'
+import { Image } from 'astro:assets'
+import { frontmatter, Content } from '../content/actus/index.md'
+import { createPlaceHolder } from '../lib/createPlaceHolder.ts'
+
+const { thumbnail: imgSrc } = frontmatter as {
+	enabled: boolean
+	thumbnail: string
+	legend: string
+}
+
+const images = import.meta.glob('/src/content/assets/*.{jpeg,jpg,png,gif}')
+const newsThumbnail = images[imgSrc]() as ImageMetadata
+const newsPlaceHolder = await createPlaceHolder(newsThumbnail)
 
 type Props = {
 	current?: HeaderProps['current']
@@ -21,6 +34,7 @@ const { current, toPreload } = Astro.props
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sarah Penanhoat</title>
 		{toPreload?.map((href) => <link rel="preload" as="image" {href} />)}
+		<link rel="preload" as="image" href={newsPlaceHolder.src} />
 		<ViewTransitions />
 	</head>
 	<body class="bg-gray-50 text-base text-gray-900">

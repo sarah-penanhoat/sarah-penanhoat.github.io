@@ -51,7 +51,7 @@ const toPreload = [thumbnailPlaceHolder.src, ...gelleryPlaceHolders.map((el) => 
 					/>
 				</a>
 			</div>
-			<article class="max-w-[66ch] shrink-0 space-y-[1em] py-4">
+			<article class="max-w-[66ch] shrink-0 space-y-2 py-4 sm:space-y-8">
 				<h2 class="font-serif text-3xl/snug" transition:name={`${slug}-title`}>
 					{data.title}
 				</h2>
@@ -81,7 +81,7 @@ const toPreload = [thumbnailPlaceHolder.src, ...gelleryPlaceHolders.map((el) => 
 									<Image
 										src={img}
 										alt=""
-										class="h-full max-h-full w-auto w-full min-w-full cursor-pointer object-cover"
+										class="h-full max-h-full w-auto  min-w-full cursor-pointer object-cover"
 										width={500}
 									/>
 								</a>
