@@ -1,4 +1,8 @@
 ---
+import { frontmatter } from '../content/actus/index.md'
+import News from './News.astro'
+
+const { enabled } = frontmatter as { enabled: boolean }
 export type Props = {
 	current?: 'projects' | 'infos' | 'news'
 }
@@ -23,16 +27,24 @@ const { current } = Astro.props
 						></span>
 					</a>
 				</li>
-				<li>
-					<a class="group relative px-2 py-0.5" href="" aria-current={current === 'news'}
-						>Actualités
-						<span
-							transition:name="nav-indicator"
-							aria-hidden="true"
-							class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
-						></span>
-					</a>
-				</li>
+				{
+					enabled && (
+						<li>
+							<button
+								class="group relative px-2 py-0.5"
+								aria-current={current === 'news'}
+								data-js="newsBtn"
+							>
+								Actualités
+								<span
+									transition:name="nav-indicator"
+									aria-hidden="true"
+									class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
+								/>
+							</button>
+						</li>
+					)
+				}
 				<li>
 					<a class="group relative px-2 py-0.5" href="/infos" aria-current={current === 'infos'}
 						>Infos
@@ -47,3 +59,4 @@ const { current } = Astro.props
 		</nav>
 	</div>
 </header>
+{enabled && <News />}

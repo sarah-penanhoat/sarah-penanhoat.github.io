@@ -45,7 +45,7 @@ const toPreload = [thumbnailPlaceHolder.src, ...gelleryPlaceHolders.map((el) => 
 					<Picture
 						src={data.thumbnail}
 						alt={data.altText ?? ''}
-						class="h-full w-full bg-cover bg-no-repeat object-cover"
+						class="h-full max-h-[80vh] w-full bg-contain bg-center bg-no-repeat object-contain xl:bg-cover xl:object-cover"
 						transition:name={`${slug}-thumnain`}
 						style={`background-image:url("${thumbnailPlaceHolder.src}")`}
 					/>

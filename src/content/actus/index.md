@@ -1,6 +1,6 @@
 ---
-enabled: true
 thumbnail: /src/content/assets/348387315_946533199801156_5884472295537106072_n.jpg
+enabled: true
 legend: Jusqu'en juillet 2024
 ---
 

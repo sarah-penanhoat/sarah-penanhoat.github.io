@@ -1,0 +1,75 @@
+---
+import { Image } from 'astro:assets'
+import { frontmatter, Content } from '../content/actus/index.md'
+import { createPlaceHolder } from '../lib/createPlaceHolder.ts'
+
+const { thumbnail: imgSrc, legend } = frontmatter as {
+	enabled: boolean
+	thumbnail: string
+	legend: string
+}
+
+const images = import.meta.glob('/src/content/assets/*.{jpeg,jpg,png,gif}')
+const thumbnail = images[imgSrc]() as ImageMetadata
+const placeHolder = await createPlaceHolder(thumbnail)
+---
+
+<dialog class="fixed z-50 w-full max-w-xl bg-transparent px-4">
+	<div
+		class="grid justify-items-center gap-4 border-2 border-dashed border-gray-900 bg-gray-50 p-8"
+	>
+		<form method="dialog" class="absolute right-0 top-0 z-10 p-8">
+			<button class="">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-8 w-8"
+				>
+					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+				</svg>
+			</button>
+		</form>
+		<h3 class="text-center font-serif text-3xl font-bold">Actualités</h3>
+		<p class="text-center italic text-gray-800">{legend}</p>
+		<Image
+			src={thumbnail}
+			alt=""
+			width={400}
+			class="max-h-[50vh] bg-contain bg-center bg-no-repeat object-contain"
+			style={`background-image:url("${placeHolder.src}")`}
+		/>
+		<div class="prose prose-lg">
+			<Content />
+		</div>
+	</div>
+</dialog>
+<style>
+	dialog {
+		animation: fade-in 0.3s;
+	}
+	@keyframes fade-in {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+</style>
+
+<script lang="ts">
+	const initDialog = () => {
+		const newsBtn = document.querySelector('[data-js="newsBtn"]')
+		newsBtn.addEventListener('click', () => {
+			document.querySelector('dialog')?.showModal()
+		})
+	}
+
+	initDialog()
+	document.addEventListener('astro:after-swap', () => {
+		initDialog()
+	})
+</script>
