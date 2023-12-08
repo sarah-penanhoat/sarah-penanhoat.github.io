@@ -1,0 +1,30 @@
+---
+import '@fontsource/almendra'
+import '@fontsource-variable/archivo-narrow'
+import '../base.css'
+import Header from '../components/Header.astro'
+import type { Props as HeaderProps } from '../components/Header.astro'
+import { ViewTransitions } from 'astro:transitions'
+
+type Props = {
+	current?: HeaderProps['current']
+	toPreload?: string[]
+}
+
+const { current, toPreload } = Astro.props
+---
+
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sarah Penanhoat</title>
+		{toPreload?.map((href) => <link rel="preload" as="image" {href} />)}
+		<ViewTransitions />
+	</head>
+	<body class="bg-gray-50 text-base text-gray-900">
+		<Header {current} />
+		<slot />
+	</body>
+</html>

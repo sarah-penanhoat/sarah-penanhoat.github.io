@@ -1,0 +1,49 @@
+---
+export type Props = {
+	current?: 'projects' | 'infos' | 'news'
+}
+
+const { current } = Astro.props
+---
+
+<header class="sticky top-0 z-10 bg-gray-50">
+	<div
+		class="container mx-auto flex h-32 flex-col items-center justify-center gap-6 px-2 py-4 lg:h-24 lg:flex-row lg:justify-between"
+	>
+		<h1 class="whitespace-nowrap font-serif text-3xl"><a href="/">Sarah Penanhoat</a></h1>
+		<nav>
+			<ul class="flex gap-8 font-semibold sm:gap-16 sm:text-lg">
+				<li>
+					<a class="group relative px-2 py-0.5" href="/" aria-current={current === 'projects'}
+						>Projets
+						<span
+							transition:name="nav-indicator"
+							aria-hidden="true"
+							class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
+						></span>
+					</a>
+				</li>
+				<li>
+					<a class="group relative px-2 py-0.5" href="" aria-current={current === 'news'}
+						>Actualités
+						<span
+							transition:name="nav-indicator"
+							aria-hidden="true"
+							class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
+						></span>
+					</a>
+				</li>
+				<li>
+					<a class="group relative px-2 py-0.5" href="/infos" aria-current={current === 'infos'}
+						>Infos
+						<span
+							transition:name="nav-indicator"
+							aria-hidden="true"
+							class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
+						></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>

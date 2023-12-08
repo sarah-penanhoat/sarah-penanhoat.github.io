@@ -1,0 +1,112 @@
+---
+import 'photoswipe/photoswipe.css'
+import 'photoswipe/style.css'
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
+import { Image, Picture, getImage } from 'astro:assets'
+import { getCollection } from 'astro:content'
+import Base from '../../layouts/Base.astro'
+import { slugify } from '../../lib/slugify'
+import { createPlaceHolder } from '../../lib/createPlaceHolder.ts'
+
+export const getStaticPaths = (async () => {
+	const projects = await getCollection('projects')
+	return projects.map((el) => ({
+		params: { project: slugify(el.data.title) },
+		props: el
+	}))
+}) satisfies GetStaticPaths
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>
+
+const { data, render } = Astro.props
+const { project: slug } = Astro.params
+
+const { Content } = await render()
+
+const fullImages =
+	data.galery === undefined
+		? []
+		: await Promise.all(data.galery.map((img) => getImage({ src: img, width: 1000 })))
+
+const thumbnailPlaceHolder = await createPlaceHolder(data.thumbnail)
+const gelleryPlaceHolders =
+	data.galery === undefined
+		? []
+		: await Promise.all(data.galery.map((img) => createPlaceHolder(img)))
+
+const toPreload = [thumbnailPlaceHolder.src, ...gelleryPlaceHolders.map((el) => el.src)]
+---
+
+<Base current="projects" {toPreload}>
+	<main class="container mx-auto px-4">
+		<section class="gap-12 xl:flex">
+			<div class="top-24 grow py-4 xl:sticky xl:h-[calc(100vh_-_6rem)]">
+				<a href="#">
+					<Picture
+						src={data.thumbnail}
+						alt={data.altText ?? ''}
+						class="h-full w-full bg-cover bg-no-repeat object-cover"
+						transition:name={`${slug}-thumnain`}
+						style={`background-image:url("${thumbnailPlaceHolder.src}")`}
+					/>
+				</a>
+			</div>
+			<article class="max-w-[66ch] shrink-0 space-y-[1em] py-4">
+				<h2 class="font-serif text-3xl/snug" transition:name={`${slug}-title`}>
+					{data.title}
+				</h2>
+				<i class="block" transition:name={`${slug}-legend`}>{data.legend}</i>
+				<div class="prose xl:prose-lg" transition:name={`${slug}-text`}>
+					<Content />
+				</div>
+			</article>
+		</section>
+
+		{
+			data.galery && data.galery.length > 0 && (
+				<>
+					<hr class="my-8 ml-[50%] w-screen -translate-x-1/2 border-0 border-b-2 border-dashed border-black" />
+					<ul class="mb-12 flex flex-wrap gap-1 overflow-hidden" id="gallery">
+						{data.galery?.map((img, index) => (
+							<li
+								class="h-64 max-w-lg grow bg-cover bg-no-repeat"
+								style={`background-image:url("${gelleryPlaceHolders[index].src}")`}
+							>
+								<a
+									href={fullImages[index].src}
+									data-pswp-width={fullImages[index].attributes.width}
+									data-pswp-height={fullImages[index].attributes.height}
+								>
+									<Image
+										src={img}
+										alt=""
+										class="max-h-full w-auto min-w-full cursor-pointer object-cover"
+										width={500}
+									/>
+								</a>
+							</li>
+						))}
+					</ul>
+				</>
+			)
+		}
+	</main>
+</Base>
+
+<script>
+	import PhotoSwipeLightbox from 'photoswipe/lightbox'
+	import pswpModule from 'photoswipe'
+
+	function initLightBox() {
+		const lightbox = new PhotoSwipeLightbox({
+			gallery: '#gallery',
+			children: 'a',
+			pswpModule
+		})
+		lightbox.init()
+	}
+
+	initLightBox()
+
+	document.addEventListener('astro:after-swap', initLightBox)
+</script>

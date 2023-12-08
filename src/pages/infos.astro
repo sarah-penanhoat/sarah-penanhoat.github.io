@@ -1,0 +1,27 @@
+---
+import { Picture } from 'astro:assets'
+import { Content, frontmatter } from '../content/infos/index.md'
+import Base from '../layouts/Base.astro'
+import { createPlaceHolder } from '../lib/createPlaceHolder.ts'
+import type { ImageMetadata } from 'astro'
+
+const { thumbnail: imgSrc } = frontmatter as { thumbnail: string }
+const images = import.meta.glob('/src/content/assets/*.{jpeg,jpg,png,gif}')
+const thumbnail = images[imgSrc]() as ImageMetadata
+const placeHolder = await createPlaceHolder(thumbnail)
+---
+
+<Base current="infos" toPreload={[placeHolder.src]}>
+	<main class="container mx-auto grid items-center gap-16 px-4 py-16 lg:grid-cols-2">
+		<Picture
+			src={thumbnail}
+			alt="Portrait de Sarah Penanhoat"
+			width={800}
+			class="grow basis-[20rem] bg-cover bg-no-repeat"
+			style={`background-image:url("${placeHolder.src}")`}
+		/>
+		<article class="prose prose-lg">
+			<Content />
+		</article>
+	</main>
+</Base>
