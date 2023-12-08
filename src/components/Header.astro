@@ -16,14 +16,14 @@ const { current } = Astro.props
 	>
 		<h1 class="whitespace-nowrap font-serif text-3xl"><a href="/">Sarah Penanhoat</a></h1>
 		<nav>
-			<ul class="flex gap-4 font-semibold sm:gap-16 sm:text-lg">
+			<ul class="flex items-center gap-8 font-semibold sm:gap-16 sm:text-lg">
 				<li>
-					<a class="group relative px-2 py-0.5" href="/" aria-current={current === 'projects'}
+					<a class="group relative py-0.5" href="/" aria-current={current === 'projects'}
 						>Projets
 						<span
 							transition:name="nav-indicator"
 							aria-hidden="true"
-							class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
+							class="absolute -left-2 -right-2 top-0 hidden h-full border-2 border-dashed border-black group-aria-[current=true]:block"
 						></span>
 					</a>
 				</li>
@@ -31,7 +31,7 @@ const { current } = Astro.props
 					enabled && (
 						<li>
 							<button
-								class="group relative px-2 py-0.5"
+								class="group relative py-0.5"
 								aria-current={current === 'news'}
 								data-js="newsBtn"
 							>
@@ -39,19 +39,19 @@ const { current } = Astro.props
 								<span
 									transition:name="nav-indicator"
 									aria-hidden="true"
-									class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
+									class="absolute -left-2 -right-2 top-0 hidden h-full  border-2 border-dashed border-black group-aria-[current=true]:block"
 								/>
 							</button>
 						</li>
 					)
 				}
 				<li>
-					<a class="group relative px-2 py-0.5" href="/infos" aria-current={current === 'infos'}
+					<a class="group relative py-0.5" href="/infos" aria-current={current === 'infos'}
 						>Infos
 						<span
 							transition:name="nav-indicator"
 							aria-hidden="true"
-							class="absolute inset-0 hidden border-2 border-dashed border-black group-aria-[current=true]:block"
+							class="absolute -left-2 -right-2 top-0 hidden h-full border-2 border-dashed border-black group-aria-[current=true]:block"
 						></span>
 					</a>
 				</li>

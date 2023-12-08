@@ -66,6 +66,7 @@ const toPreload = [thumbnailPlaceHolder.src, ...gelleryPlaceHolders.map((el) => 
 			data.galery && data.galery.length > 0 && (
 				<>
 					<hr class="my-8 ml-[50%] w-screen -translate-x-1/2 border-0 border-b-2 border-dashed border-black" />
+
 					<ul class="mb-12 flex flex-wrap gap-1 overflow-hidden" id="gallery">
 						{data.galery?.map((img, index) => (
 							<li
@@ -80,7 +81,7 @@ const toPreload = [thumbnailPlaceHolder.src, ...gelleryPlaceHolders.map((el) => 
 									<Image
 										src={img}
 										alt=""
-										class="max-h-full w-auto min-w-full cursor-pointer object-cover"
+										class="h-full max-h-full w-auto w-full min-w-full cursor-pointer object-cover"
 										width={500}
 									/>
 								</a>
