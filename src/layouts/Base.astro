@@ -33,6 +33,7 @@ const { current, toPreload } = Astro.props
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sarah Penanhoat</title>
+		<meta name="description" content="Portfolio de l'artiste Sarah Penanhoat." />
 		{toPreload?.map((href) => <link rel="preload" as="image" {href} />)}
 		<link rel="preload" as="image" href={newsPlaceHolder.src} />
 		<ViewTransitions />
