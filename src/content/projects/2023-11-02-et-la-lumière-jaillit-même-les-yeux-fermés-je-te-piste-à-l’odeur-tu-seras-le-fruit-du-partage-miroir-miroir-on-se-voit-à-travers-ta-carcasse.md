@@ -12,4 +12,4 @@ galery:
 date: 2023-11-02T21:02:57.215Z
 ---
 
-En référence aux cadres de bois ouvragés de certaines écoles de peinture, des cadres évoquant la jungle entourant un miroir.
+En référence aux cadres de bois ouvragés de certaines écoles de peinture, ceux-là évoque une jungle.
