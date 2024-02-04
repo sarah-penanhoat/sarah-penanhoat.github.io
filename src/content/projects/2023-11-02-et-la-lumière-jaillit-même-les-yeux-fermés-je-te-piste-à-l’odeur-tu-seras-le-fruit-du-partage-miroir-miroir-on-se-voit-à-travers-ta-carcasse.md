@@ -12,4 +12,4 @@ galery:
 date: 2023-11-02T21:02:57.215Z
 ---
 
-En référence aux cadres de bois ouvragés de certaines écoles de peinture, ceux-là évoque une jungle.
+En référence aux cadres de bois ouvragés de certaines écoles de peinture, ceux-là évoquent une jungle.
