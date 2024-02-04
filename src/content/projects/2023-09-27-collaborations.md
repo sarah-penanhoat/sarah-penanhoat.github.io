@@ -4,13 +4,14 @@ legend: Depuis 2017
 resume: 'Des travaux communs '
 thumbnail: /src/content/assets/collaborative.jpg
 galery:
-  - /src/content/assets/selec (12).JPG
   - /src/content/assets/3aleale7.jpg
   - /src/content/assets/3aleale4.jpg
   - /src/content/assets/3aleale9.jpg
   - /src/content/assets/3aleale5.jpg
   - /src/content/assets/3aleale4.jpg
+  - /src/content/assets/selec (12).JPG
   - /src/content/assets/dsc01673.jpg
+  - /src/content/assets/IMG_4432.JPG
 date: 2023-09-27T16:44:17.832Z
 ---
 
