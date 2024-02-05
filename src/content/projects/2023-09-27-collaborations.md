@@ -22,8 +22,8 @@ date: 2023-09-27T16:44:17.832Z
 
 2﻿ - *Fruits du hasard*, une invitation de Fanny Alizon, 2022
 
-3﻿ - *A l'Ombre du noisetier*, une installation commune de l'Atelier Bouillon, 2022
+3﻿ - *A l'Ombre du noisetier*, une installation commune de l'Atelier Bouillon, 2022 
 
-4﻿ - *Lemon*, en duo avec Hadrien Téqui, 2022 - in progress 
+4﻿ - *Lemon*, en duo avec Hadrien Téqui, 2022 - in progress
 
 2 - *Nappe végétale*, avec Lina Shlageter, collection privée, 2021
