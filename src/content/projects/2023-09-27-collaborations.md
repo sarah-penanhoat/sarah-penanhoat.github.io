@@ -6,11 +6,6 @@ resume: >-
   structures, on a fait des pièces à deux, trois, cinq.
 thumbnail: /src/content/assets/2collaborative8.jpg
 galery:
-  - /src/content/assets/3aleale7.jpg
-  - /src/content/assets/3aleale4.jpg
-  - /src/content/assets/3aleale9.jpg
-  - /src/content/assets/3aleale5.jpg
-  - /src/content/assets/3aleale4.jpg
   - /src/content/assets/selec (12).JPG
   - /src/content/assets/dsc01673.jpg
   - /src/content/assets/IMG_4432.JPG
@@ -20,12 +15,10 @@ galery:
 date: 2017-03-10T23:00:00.000Z
 ---
 
-1﻿ - *Fête foraine, Starring*, avec Alexis Champion, 2017
+1 - *Fruits du hasard*, une invitation de Fanny Alizon, 2022
 
-2﻿ - *Fruits du hasard*, une invitation de Fanny Alizon, 2022
+2﻿ - *A l'Ombre du noisetier*, une installation commune de l'Atelier Bouillon, 2022
 
-3﻿ - *A l'Ombre du noisetier*, une installation commune de l'Atelier Bouillon, 2022
+3﻿ - *Lemon*, en duo avec Hadrien Téqui, 2022 - in progress
 
-4﻿ - *Lemon*, en duo avec Hadrien Téqui, 2022 - in progress
-
-2 - *Nappe végétale*, avec Lina Shlageter, collection privée, 2021
+4 - *Nappe végétale*, avec Lina Shlageter, collection privée, 2021
