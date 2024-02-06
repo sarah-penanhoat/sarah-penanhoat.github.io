@@ -1,8 +1,8 @@
 ---
 title: 'Pêche à pied, des eaux à la coque'
-legend: '2023'
+legend: 'Installation, repas collectif, 2023'
 resume: >-
-  Une cueillette sauvage pendant les grandes marées, une cuisine sauvage et un
+  Une cueillette sauvage pendant les grandes marées, une cuisine familiale et un
   repas collectif
 thumbnail: /src/content/assets/Site.jpg
 galery:
