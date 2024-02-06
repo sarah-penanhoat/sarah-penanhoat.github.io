@@ -5,7 +5,7 @@ resume: Lorem
 thumbnail: /src/content/assets/dsc_0154bd.jpg
 galery:
   - /src/content/assets/dsc_0146bd.jpg
-date: 2022-12-10T23:00:00.000Z
+date: 2021-08-10T22:00:00.000Z
 ---
 
 Dans l'Antiquité Classique, une curieuse tradition empreinte d'espoir existe. Elle s'applique aux relations dites d'amour de l'époque. Aujourd'hui, on peut l'appliquer à d'autres relations, pour qui la peine est grande.
