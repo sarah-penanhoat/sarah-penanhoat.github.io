@@ -2,7 +2,6 @@
 title: Un petit coup de chaud ? Anticuchos !
 legend: '2022'
 resume: Lorem
-date: 2023-09-24T09:12:56.017Z
 thumbnail: /src/content/assets/unpcoupdchaud-2-.jpg
 galery:
   - /src/content/assets/unpcoupdchaud-13-.jpg
@@ -15,6 +14,7 @@ galery:
   - /src/content/assets/unpcoupdchaud-4-.jpg
   - /src/content/assets/unpcoupdchaud-3-.jpg
   - /src/content/assets/unpcoupdchaud-1-.jpg
+date: 2022-06-10T22:00:00.000Z
 ---
 
 L﻿orem
