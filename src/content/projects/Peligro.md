@@ -1,9 +1,9 @@
 ---
 title: Peligro
-legend: '2023'
-resume: >-
+legend: >-
   Grès et faïence émaillée, lin brodé, acier, marbre, plantes, huile essentielle
-  d’eucalyptus, dimensions variables
+  d’eucalyptus, dimensions variables, 2023
+resume: Un espace rapporté.
 thumbnail: /src/content/assets/plantesbd.jpg
 galery:
   - /src/content/assets/plantesBD.jpg
