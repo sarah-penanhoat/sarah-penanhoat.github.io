@@ -2,7 +2,6 @@
 title: Des pièces
 legend: Depuis 2017
 resume: Travaux ensemble
-priority: 500
 thumbnail: /src/content/assets/collaborative.jpg
 galery:
   - /src/content/assets/3aleale7.jpg
@@ -16,7 +15,7 @@ galery:
   - /src/content/assets/oui5.JPG
   - /src/content/assets/ouiolleeoui.JPG
   - /src/content/assets/oui6.JPG
-date: 2021-09-10T22:00:00.000Z
+date: 2017-03-10T23:00:00.000Z
 ---
 
 1﻿ - *Fête foraine, Starring*, avec Alexis Champion, 2017
