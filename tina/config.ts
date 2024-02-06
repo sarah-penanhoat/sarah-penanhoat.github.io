@@ -110,6 +110,12 @@ export default defineConfig({
 						required: true
 					},
 					{
+						type: 'number',
+						name: 'priority',
+						label: 'Priorité',
+						required: false
+					},
+					{
 						type: 'image',
 						name: 'thumbnail',
 						label: 'Image principale',

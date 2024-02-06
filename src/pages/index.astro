@@ -16,7 +16,9 @@ const projects = await Promise.all(
 		}
 	})
 )
-projects.sort((a, b) => b.date.getTime() - a.date.getTime())
+projects
+	.sort((a, b) => b.date.getTime() - a.date.getTime())
+	.sort((a, b) => (b.priority ?? 0) - (a.priority ?? 0))
 
 const toPreload = projects.map((el) => el.placeHolder.src)
 ---

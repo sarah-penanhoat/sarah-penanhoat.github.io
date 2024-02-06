@@ -2,6 +2,7 @@
 title: Des pièces
 legend: Depuis 2017
 resume: Travaux ensemble
+priority: 500
 thumbnail: /src/content/assets/collaborative.jpg
 galery:
   - /src/content/assets/3aleale7.jpg
