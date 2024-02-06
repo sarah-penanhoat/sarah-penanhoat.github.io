@@ -1,7 +1,7 @@
 ---
 title: When you dry up I won't cry
-legend: 2020 - in progress
-resume: Lorem
+legend: 'Faïence émaillée, 2020 - 2024'
+resume: Les balsamaires contemporains sont toujours d'actualité
 thumbnail: /src/content/assets/dsc_0154bd.jpg
 galery:
   - /src/content/assets/dsc_0146bd.jpg
