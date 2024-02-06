@@ -1,9 +1,9 @@
 ---
 title: Véro à la fête foraine
-legend: Une collaboration avec Alexis Champion
-resume: >-
-  Projection vidéo mappée sur structure aluminium et boules à facettes,
-  dimensions variables, 2017
+legend: >-
+  Projection vidéo mappée sur structure aluminium et boules à facettes.
+  Installation vidéo de 4 minutes 13, dimensions variables, 2017
+resume: Une collaboration avec Alexis Champion
 thumbnail: /src/content/assets/3aleale4.jpg
 galery:
   - /src/content/assets/3aleale9.jpg
