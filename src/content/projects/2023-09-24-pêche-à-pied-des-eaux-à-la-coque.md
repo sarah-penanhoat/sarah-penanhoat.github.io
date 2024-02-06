@@ -1,7 +1,9 @@
 ---
 title: 'Pêche à pied, des eaux à la coque'
 legend: '2023'
-resume: Lorem
+resume: >-
+  Une cueillette sauvage pendant les grandes marées, une cuisine sauvage et un
+  repas collectif
 thumbnail: /src/content/assets/Site.jpg
 galery:
   - /src/content/assets/algues.jpg
