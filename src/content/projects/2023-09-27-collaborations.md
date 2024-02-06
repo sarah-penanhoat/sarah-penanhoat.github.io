@@ -1,8 +1,10 @@
 ---
 title: Des pièces
-legend: Depuis 2017
-resume: Travaux ensemble
-thumbnail: /src/content/assets/collaborative.jpg
+legend: 'Matériaux divers, dimensions variables, lieux multiples'
+resume: >-
+  Depuis 2017, à l'initiative d'autres plasticiens, à la mienne, à celle de
+  structures, on a fait des pièces à deux, trois, cinq.
+thumbnail: /src/content/assets/2collaborative8.jpg
 galery:
   - /src/content/assets/3aleale7.jpg
   - /src/content/assets/3aleale4.jpg
