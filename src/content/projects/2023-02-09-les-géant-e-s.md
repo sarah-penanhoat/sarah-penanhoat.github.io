@@ -10,7 +10,7 @@ galery:
   - /src/content/assets/0.jpg
   - /src/content/assets/dsc_0028bbbbase.jpg
   - /src/content/assets/img2.jpg
-date: 2023-02-09T11:25:01.452Z
+date: 2020-09-10T22:00:00.000Z
 ---
 
 Dans le cadre de Création en Cours, projet porté par les Ateliers Médicis, le projet des Géant·e·s s'est dessiné. Pendant six mois, avec trente enfants, nous avons travaillé la terre et le pain.
