@@ -2,8 +2,10 @@
 title: >-
   Et la lumière jaillit, même les yeux fermés, je te piste à l’odeur, tu seras
   le fruit du partage. Miroir, miroir, on se voit à travers ta carcasse
-legend: '2023'
-resume: 'Faïence engobée émaillée, miroir'
+legend: 'Faïence engobée émaillée, miroir, 2023'
+resume: >-
+  En référence aux cadres de bois ouvragés de certaines écoles de peinture,
+  ceux-là évoquent une jungle.
 thumbnail: /src/content/assets/miroir-3-b.jpg
 galery:
   - /src/content/assets/miroir-3-b.jpg
