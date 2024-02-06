@@ -15,14 +15,14 @@ galery:
   - /src/content/assets/oui5.JPG
   - /src/content/assets/ouiolleeoui.JPG
   - /src/content/assets/oui6.JPG
-date: 2023-09-27T16:44:17.832Z
+date: 2021-09-10T22:00:00.000Z
 ---
 
 1﻿ - *Fête foraine, Starring*, avec Alexis Champion, 2017
 
 2﻿ - *Fruits du hasard*, une invitation de Fanny Alizon, 2022
 
-3﻿ - *A l'Ombre du noisetier*, une installation commune de l'Atelier Bouillon, 2022 
+3﻿ - *A l'Ombre du noisetier*, une installation commune de l'Atelier Bouillon, 2022
 
 4﻿ - *Lemon*, en duo avec Hadrien Téqui, 2022 - in progress
 
