@@ -1,12 +1,7 @@
 ---
 title: Et il n'en restera qu'un
-legend: 'Faïence émaillée, 2020'
-resume: >-
-  Dans la continuité du musée archéologique vu dans Unatrium, voici l'un des
-  détails de cette installation. Et il n'en restera qu'un n'est ni pastiche, ni
-  reconstitution. Ces miniatures uniques font écho aux larmes de crocodiles, et
-  étaient à offrir en cas de rupture, dans les moeurs amoureuses de la Grèce
-  antique. Plus le temps passe, et moins de statuettes seront présentes.
+legend: 'Faïence émaillée, douze exemplaires, dimensions variables, 2020'
+resume: 'Ni pastiche, ni reconstitution, l''origine des larmes de crocodile'
 thumbnail: /src/content/assets/croco0.jpg
 galery:
   - /src/content/assets/1.jpg
