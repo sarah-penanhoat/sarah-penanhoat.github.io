@@ -4,8 +4,10 @@ legend: 'Installation, repas collectif, 2023'
 resume: >-
   Une cueillette sauvage pendant les grandes marées, une cuisine familiale et un
   repas collectif
-thumbnail: /src/content/assets/Site.jpg
+thumbnail: /src/content/assets/IMG_1121.JPG
 galery:
+  - /src/content/assets/Site.jpg
+  - /src/content/assets/IMG_1121.JPG
   - /src/content/assets/algues.jpg
 date: 2023-12-10T23:00:00.000Z
 ---
