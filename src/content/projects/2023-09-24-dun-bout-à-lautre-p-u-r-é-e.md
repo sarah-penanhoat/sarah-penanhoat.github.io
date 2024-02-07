@@ -4,9 +4,11 @@ legend: 'Faïence rouge engobée, partiellement émaillée, dimensions variables
 resume: >-
   Un paysage modulable, fait de briques faisant écho à l'architecture du nord de
   la France, mais renvoyant aux paysages montagneux de la cordillère des Andes.
-thumbnail: /src/content/assets/DSC_0076b.jpg
+thumbnail: /src/content/assets/OKsiteDSC_0076b.jpg
 galery:
-  - /src/content/assets/site2.JPG
+  - /src/content/assets/okDSC_0316.jpg
+  - /src/content/assets/okDSC_0311.jpg
+  - /src/content/assets/OKsite2.jpg
 date: 2020-10-10T22:00:00.000Z
 ---
 
