@@ -6,6 +6,9 @@ resume: >-
   la France, mais renvoyant aux paysages montagneux de la cordillère des Andes.
 thumbnail: /src/content/assets/OKsiteDSC_0076b.jpg
 galery:
+  - /src/content/assets/okDSC_0326.jpg
+  - /src/content/assets/okDSC_0325.jpg
+  - /src/content/assets/okDSC_0319.jpg
   - /src/content/assets/okDSC_0316.jpg
   - /src/content/assets/okDSC_0311.jpg
   - /src/content/assets/OKsite2.jpg
