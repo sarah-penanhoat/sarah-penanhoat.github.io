@@ -7,6 +7,7 @@ galery:
   - /src/content/assets/1.jpg
   - /src/content/assets/3.jpg
   - /src/content/assets/croco0.jpg
+  - /src/content/assets/crocosretouche.jpg
 date: 2020-03-10T23:00:00.000Z
 ---
 
