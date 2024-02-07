@@ -4,6 +4,8 @@ legend: 'Acier, verre, aluminium, polyester, carte postale, dimensions variables
 resume: Une entrée dans un musée où le drapé n'est plus sous verre
 thumbnail: /src/content/assets/retouchédnsep_peanhoat-8bassedef.jpg
 galery:
+  - /src/content/assets/siteretouche15b2.jpg
+  - /src/content/assets/retouche13bis.jpg
   - /src/content/assets/retouchédnsep_peanhoat-8base.jpg
   - /src/content/assets/dnsep_peanhoat-9.jpg
 date: 2018-12-10T23:00:00.000Z
