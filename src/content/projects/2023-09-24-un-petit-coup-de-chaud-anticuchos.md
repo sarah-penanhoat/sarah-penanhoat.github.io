@@ -22,3 +22,5 @@ date: 2022-06-10T22:00:00.000Z
 ---
 
 Armée de deux caddies abandonnés, soudés de cadres et greffé de structure en métal pour qu’ils deviennent de gigantesques braseros sur roues, ainsi que d’un petit four artisanal, ici pour cuire du pain, accompagnée de Stephen Roos, nous avons enfilé nos costumes de cuisiniers et fait déguster les mets aux convives.
+
+*Photos de la restitution : Claire-Marie Régent*
