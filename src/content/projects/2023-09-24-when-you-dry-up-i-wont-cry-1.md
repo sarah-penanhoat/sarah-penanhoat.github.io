@@ -7,6 +7,7 @@ galery:
   - /src/content/assets/DSC_0145sitejpg.jpg
   - /src/content/assets/DSC_0151site.jpg
   - /src/content/assets/DSC_0150site.jpg
+  - /src/content/assets/base10.jpg
 date: 2020-08-10T22:00:00.000Z
 ---
 
