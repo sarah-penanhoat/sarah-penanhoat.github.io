@@ -7,8 +7,10 @@ resume: >-
 thumbnail: /src/content/assets/dsc_0028bbbbase.jpg
 altText: ''
 galery:
-  - /src/content/assets/0.jpg
+  - /src/content/assets/siteGEANTESAppPhoto (4).jpg
   - /src/content/assets/dsc_0028bbbbase.jpg
+  - /src/content/assets/0.jpg
+  - /src/content/assets/GEANTESAppPhoto (6).JPG
   - /src/content/assets/img2.jpg
 date: 2020-09-10T22:00:00.000Z
 ---
