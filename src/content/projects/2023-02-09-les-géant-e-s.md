@@ -7,6 +7,7 @@ resume: >-
 thumbnail: /src/content/assets/dsc_0028bbbbase.jpg
 altText: ''
 galery:
+  - /src/content/assets/siteGEANTESAppPhoto (1).jpg
   - /src/content/assets/siteGEANTESAppPhoto (4).jpg
   - /src/content/assets/dsc_0028bbbbase.jpg
   - /src/content/assets/0.jpg
