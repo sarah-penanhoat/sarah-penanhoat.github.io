@@ -6,9 +6,9 @@ resume: >-
   repas collectif
 thumbnail: /src/content/assets/IMG_1121.JPG
 galery:
+  - /src/content/assets/IMG_1132.JPG
   - /src/content/assets/Site.jpg
   - /src/content/assets/IMG_1121.JPG
-  - /src/content/assets/algues.jpg
 date: 2023-12-10T23:00:00.000Z
 ---
 
