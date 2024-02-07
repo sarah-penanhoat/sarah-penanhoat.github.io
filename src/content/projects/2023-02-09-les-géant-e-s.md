@@ -1,6 +1,6 @@
 ---
 title: Les Géant·e·s
-legend: 'Faïence émaillée, 2020'
+legend: 'Faïence émaillée, pain, 2020'
 resume: >-
   Etapes du projet de résidence de création soutenu par les Ateliers Médicis, à
   Signy-le-Petit, dans les Ardennes
