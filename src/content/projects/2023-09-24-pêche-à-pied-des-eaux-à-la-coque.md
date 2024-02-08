@@ -6,21 +6,20 @@ resume: >-
   repas collectif
 thumbnail: /src/content/assets/IMG_1132.JPG
 galery:
-  - /src/content/assets/pecheapied/IMG_9775.jpg
-  - /src/content/assets/pecheapied/IMG_9774.jpg
-  - /src/content/assets/pecheapied/IMG_1151.JPG
+  - /src/content/assets/IMG_1121.JPG
+  - /src/content/assets/pecheapied/IMG_1137.JPG
+  - /src/content/assets/pecheapied/IMG_1138.JPG
+  - /src/content/assets/IMG_1132.JPG
   - /src/content/assets/pecheapied/IMG_1141.JPG
   - /src/content/assets/pecheapied/IMG_1140.JPG
-  - /src/content/assets/pecheapied/IMG_1138.JPG
-  - /src/content/assets/pecheapied/IMG_1137.JPG
+  - /src/content/assets/pecheapied/IMG_1151.JPG
+  - /src/content/assets/pecheapied/IMG_9775.jpg
+  - /src/content/assets/pecheapied/IMG_9774.jpg
+  - /src/content/assets/Site.jpg
   - /src/content/assets/pecheapied/oui9.jpg
   - /src/content/assets/pecheapied/oui6.jpg
-  - /src/content/assets/pecheapied/oui4 (2).JPG
-  - /src/content/assets/pecheapied/oui1.JPG
   - /src/content/assets/pecheapied/IMG_20230704_134422.jpg
-  - /src/content/assets/IMG_1132.JPG
-  - /src/content/assets/Site.jpg
-  - /src/content/assets/IMG_1121.JPG
+  - /src/content/assets/pecheapied/oui4 (2).JPG
   - /src/content/assets/pecheapied/ouifoinal.jpg
 date: 2023-12-10T23:00:00.000Z
 ---
