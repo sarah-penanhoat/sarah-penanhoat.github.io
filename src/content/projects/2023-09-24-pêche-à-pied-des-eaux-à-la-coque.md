@@ -6,6 +6,9 @@ resume: >-
   repas collectif
 thumbnail: /src/content/assets/IMG_1132.JPG
 galery:
+  - /src/content/assets/pecheapied/IMG_9795.jpg
+  - /src/content/assets/pecheapied/IMG_9846.jpg
+  - /src/content/assets/pecheapied/IMG_9857.jpg
   - /src/content/assets/IMG_1132.JPG
   - /src/content/assets/IMG_1121.JPG
   - /src/content/assets/pecheapied/IMG_9783.jpg
