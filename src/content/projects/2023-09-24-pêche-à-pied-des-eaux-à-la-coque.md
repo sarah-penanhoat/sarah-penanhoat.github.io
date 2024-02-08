@@ -6,22 +6,20 @@ resume: >-
   repas collectif
 thumbnail: /src/content/assets/IMG_1132.JPG
 galery:
-  - /src/content/assets/pecheapied/IMG_9821.jpg
-  - /src/content/assets/pecheapied/IMG_9825.jpg
-  - /src/content/assets/pecheapied/IMG_9837.jpg
-  - /src/content/assets/pecheapied/IMG_9868.jpg
-  - /src/content/assets/pecheapied/IMG_9839.jpg
-  - /src/content/assets/pecheapied/IMG_9842.jpg
-  - /src/content/assets/pecheapied/IMG_9838.jpg
-  - /src/content/assets/pecheapied/IMG_9783.jpg
-  - /src/content/assets/IMG_1121.JPG
-  - /src/content/assets/pecheapied/IMG_1137.JPG
-  - /src/content/assets/pecheapied/IMG_1138.JPG
   - /src/content/assets/IMG_1132.JPG
+  - /src/content/assets/IMG_1121.JPG
+  - /src/content/assets/pecheapied/IMG_9783.jpg
+  - /src/content/assets/pecheapied/IMG_1137.JPG
+  - /src/content/assets/pecheapied/IMG_9837.jpg
+  - /src/content/assets/pecheapied/IMG_9842.jpg
+  - /src/content/assets/pecheapied/IMG_9825.jpg
+  - /src/content/assets/pecheapied/IMG_9868.jpg
+  - /src/content/assets/pecheapied/IMG_9821.jpg
+  - /src/content/assets/pecheapied/IMG_9839.jpg
+  - /src/content/assets/pecheapied/IMG_9838.jpg
   - /src/content/assets/pecheapied/IMG_1141.JPG
   - /src/content/assets/pecheapied/IMG_1140.JPG
   - /src/content/assets/pecheapied/IMG_1151.JPG
-  - /src/content/assets/pecheapied/IMG_9775.jpg
   - /src/content/assets/pecheapied/IMG_9774.jpg
   - /src/content/assets/Site.jpg
   - /src/content/assets/pecheapied/oui9.jpg
