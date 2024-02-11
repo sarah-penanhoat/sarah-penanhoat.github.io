@@ -1,5 +1,5 @@
 ---
-title: Des pièces
+title: 'Des pièces, morceaux choisis'
 legend: 'Matériaux divers, dimensions variables, lieux multiples'
 resume: >-
   Depuis 2017, à l'initiative d'autres plasticiens, à la mienne, à celle de
@@ -22,5 +22,3 @@ date: 2017-03-10T23:00:00.000Z
 *2 - Fruits du hasard*, une invitation de Fanny Alizon, 2022
 
 3﻿ - *A l'Ombre du noisetier*, une installation commune de l'Atelier Bouillon, 2022
-
-4 - *Nappe végétale*, avec Lina Shlageter, collection privée, 2021
