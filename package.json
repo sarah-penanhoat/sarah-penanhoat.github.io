@@ -10,12 +10,12 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/check": "^0.3.1",
-		"@astrojs/tailwind": "^5.0.2",
+		"@astrojs/check": "^0.5.3",
+		"@astrojs/tailwind": "^5.1.0",
 		"@fontsource-variable/archivo-narrow": "^5.0.18",
 		"@fontsource/almendra": "^5.0.18",
 		"@tailwindcss/typography": "^0.5.10",
-		"astro": "^3.6.4",
+		"astro": "^4.3.5",
 		"tailwindcss": "^3.3.6",
 		"tinacms": "^1.5.28",
 		"typescript": "^5.3.2"
