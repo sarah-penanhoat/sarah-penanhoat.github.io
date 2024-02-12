@@ -8,6 +8,7 @@ import { ViewTransitions } from 'astro:transitions'
 import { Image } from 'astro:assets'
 import { frontmatter, Content } from '../content/actus/index.md'
 import { createPlaceHolder } from '../lib/createPlaceHolder.ts'
+import { getCollection } from 'astro:content'
 
 const { thumbnail: imgSrc } = frontmatter as {
 	enabled: boolean
@@ -25,6 +26,8 @@ type Props = {
 }
 
 const { current, toPreload } = Astro.props
+const [infos] = await getCollection('infos')
+const metaDescription = infos.data.metadescription
 ---
 
 <!doctype html>
@@ -33,7 +36,7 @@ const { current, toPreload } = Astro.props
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sarah Penanhoat</title>
-		<meta name="description" content="Portfolio de l'artiste Sarah Penanhoat." />
+		<meta name="description" content={metaDescription} />
 		{toPreload?.map((href) => <link rel="preload" as="image" {href} />)}
 		<link rel="preload" as="image" href={newsPlaceHolder.src} />
 		<ViewTransitions />

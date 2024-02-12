@@ -1,4 +1,5 @@
 ---
+metadescription: Portfolio de l'artiste Sarah Penanhoat.
 thumbnail: /src/content/assets/img_6127.jpg
 ---
 

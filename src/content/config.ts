@@ -19,6 +19,7 @@ const infos = defineCollection({
 	type: 'content',
 	schema: ({ image }) =>
 		z.object({
+			metadescription: z.string(),
 			thumbnail: image()
 		})
 })

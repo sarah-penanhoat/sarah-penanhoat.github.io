@@ -37,6 +37,12 @@ export default defineConfig({
 				},
 				fields: [
 					{
+						name: 'metadescription',
+						label: 'meta description',
+						type: 'string',
+						required: true
+					},
+					{
 						name: 'thumbnail',
 						label: 'Image',
 						type: 'image',
