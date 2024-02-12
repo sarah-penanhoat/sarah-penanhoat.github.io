@@ -10,6 +10,6 @@ Instagram : [@sarah.peine.a.toi](https://www.instagram.com/sarah.peine.a.toi/)
 
 Contact : [el.jeanne.diaz@gmail.com](mailto:el.jeanne.diaz@gmail.com)
 
-Ce site a été réalisé par [Charles Cailleteau](mailto:charles.cailleteau@gmail.com)
+Ce site a été réalisé par [Charles Cailleteau](https://charlescailleteau.com)
 
 Les polices d’écriture utilisées sont Almendra et Archivo Narrow
