@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	.bouncing-letters:hover:not(:active) .letter {
+		animation: bouncing-letter 0.2s ease-in calc(0.03s * var(--letter-index));
+	}
+}
+
+@keyframes bouncing-letter {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-0.5rem);
+	}
+}

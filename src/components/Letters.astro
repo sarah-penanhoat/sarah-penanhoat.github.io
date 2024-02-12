@@ -1,0 +1,30 @@
+---
+export type Props = {
+	text: string
+}
+
+const { text } = await Astro.props
+
+const words = text.split(' ').map((w) => w.split(''))
+let index = 0
+---
+
+{
+	words.map((word, wordIndex) => {
+		return (
+			<>
+				<span class="inline-block" style={`--word-index:${wordIndex}`}>
+					{word.map((letter) => {
+						index++
+						return (
+							<span class="letter inline-block" style={`--letter-index:${index}`}>
+								{letter}
+							</span>
+						)
+					})}
+				</span>
+				{wordIndex < words.length - 1 && <span class="inline-block">&#20;</span>}
+			</>
+		)
+	})
+}
